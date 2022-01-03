@@ -14,4 +14,4 @@ Navigate to the folder with the file gossip.fsx
 Run the following command on the terminal:
 
 dotnet fsi proj2bf.fsx <numNodes> <topology> <algorithm>
-Where numNodes is the number of actors involved (for 2D based topologies you can round up until you get a square), topology is one of full, 2D, line, imp3D, algorithm is one of gossip, push-sum.
+Where numNodes is the number of actors involved (for 3D based topologies you can round up until you get a cube), topology is one of full, 3D, line, imp3D, algorithm is one of gossip, push-sum.
